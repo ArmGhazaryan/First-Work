@@ -1,0 +1,48 @@
+.div1 {
+	width: 200px;
+	height: 150px;
+	margin:  auto;
+	padding: 10px;
+	text-align: center;
+	display: block;
+}
+
+a {
+	width: 200px;
+	height: 60px;
+	text-decoration: none;
+	font-size: 20px;
+    line-height: 60px;
+    background: linear-gradient(45deg, red, blue, yellow,
+     green, pink, purple );
+     background-size: 250%;
+     position: absolute;
+     border-radius: 30px;
+     transition: 5s;
+}
+a:before {
+    width: 200px;
+	height: 60px;
+	text-decoration: none;
+	font-size: 20px;
+    line-height: 60px;
+    background: linear-gradient(45deg, red, blue, yellow,
+     green, pink, purple );
+     background-size: 350%;
+     position: absolute;
+     border-radius: 30px;
+     transition: 2s;
+     z-index:-1;
+     background-position: left;
+     left: -10px;
+     right: -10px;
+}
+
+a:before:hover {
+	background-position: right;
+	color: white;
+}
+a:hover {
+	background-position: right;
+	color: white;
+}

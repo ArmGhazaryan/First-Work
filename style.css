@@ -1,0 +1,85 @@
+body {
+	background: url(../img/room.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.clock {
+	width: 100px;
+    position: absolute;
+    left: 650px;
+    top: 200px;
+}
+.sofa {
+	width: 500px;
+	position: absolute;
+	left: 450px;
+    top: 400px;
+}
+.table {
+	width: 500px;
+	position: absolute;
+	left: 450px;
+    top: 450px;
+}
+.fridge {
+	width: 500px;
+	position: absolute;
+	left: 800px;
+    top: 250px;
+}
+.notebook {
+	width: 200px;
+	position: absolute;
+    left: 721px;
+    top: 342px;
+}
+.book {
+	width: 100px;
+	position: absolute;
+    left: 623px;
+    top: 417px;
+}
+.man {
+	width: 300px;
+	position: absolute;
+    left: 220px;
+    top: 198px;
+}
+.picture {
+	width: 200px;
+	position: absolute;
+    left: 771px;
+    top: 177px;
+}
+.պարբերականհամակարգ {
+	width: 200px;
+	position: absolute;
+    left: 441px;
+    top: 170px;
+}
+.dog {
+	width: 200px;
+	position: absolute;
+	left: 967px;
+    top: 540px;
+}
+.karpet {
+	width: 700px;
+	position: absolute;
+    left: 353px;
+    top: 530px;
+}
+.colakola {
+	width: 100px;
+	position: absolute;
+	top: 376px;
+    left: 473px;
+}
+.fanta {
+	width: 200px;
+	position: absolute;
+	left: 479px;
+    top: 360px;
+}
